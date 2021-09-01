@@ -21,7 +21,7 @@ function solve(){
 
     let currentDay = 1
 
-    for (let i = 1994; i > 1900; i--){
+    for (let i = 1996; i > 1900; i--){
         const leapDay = hasLeapDay(i);
 
         if(leapDay){
