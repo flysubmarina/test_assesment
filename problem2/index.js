@@ -16,14 +16,15 @@ function f(n) {
 
 
 function generateArray(n) {
+
     const array = [n];
     let current = n;
     let i = 1;
+
     while (current != 1) {
         array[i] = f(array[i - 1])
         current = array[i]
         i++;
-
     }
 
     return array;
