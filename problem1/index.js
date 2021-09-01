@@ -59,10 +59,10 @@ function main() {
 
     const s2 = solve(secondDivider, n);
 
-    const badCount = solve(firstDivider * secondDivider, n)
+    const badSum = solve(firstDivider * secondDivider, n)
 
 
-    console.log(`Result is: ${s1 + s2 - badCount}`)
+    console.log(`Result is: ${s1 + s2 - badSum}`)
 }
 
 main();
